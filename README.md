@@ -16,7 +16,8 @@ This app was made to generate high-quality professional README.md files. After c
 Cloning the repo from Github. Then install Node.js. NPM install inquirer. Then be sure to use Node's built in feature "file system" 
 
 ## Usage
-Answer questions in the command line and a README will be generated
+Answer questions in the command line and a README will be generated<br />
+![ReadMe ](https://user-images.githubusercontent.com/95494071/151903935-9544d9ca-e307-4688-9b7f-c8cfc9e9388a.gif)
 
 
 ## License
