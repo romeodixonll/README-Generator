@@ -34,16 +34,17 @@ const renderLicenseSection = (license) => {
   if (license) {
     const badge = renderLicenseBadge(license);
     const licenseLink = renderLicenseLink(license);
-    return [badge, licenseLink];
+    return [badge, licenseLink]
   }
 };
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  const license = renderLicenseSection(data.license)
   return `# ${data.projectName}
-${renderLicenseSection(data.license)}
+${license[0]}
 
-##Description
+## Description
 ${data.description}
 
 ## Table of Contents 
@@ -54,21 +55,23 @@ ${data.description}
 - [Test](#Test)
 - [Questions](#Questions)
 
-##Installation
+## Installation
 ${data.installation}
-##Usage
+
+## Usage
 ${data.usage}
 
-##License
+## License
 ${data.license}
+Info on license: ${license[1]}
 
-##Contributing 
+## Contributing 
 ${data.contributors}
 
-##TestTest
+## TestTest
 ${data.test}
 
-##Questions 
+## Questions 
 Email me at: ${data.email} 
 Find me on Github: https://github.com/${data.github}
 
