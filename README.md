@@ -17,7 +17,7 @@ Cloning the repo from Github. Then install Node.js. NPM install inquirer. Then b
 
 ## Usage
 Answer questions in the command line and a README will be generated
-https://user-images.githubusercontent.com/95494071/151902315-5df48ebb-70d0-4328-954a-af52a17af339.mp4
+
 
 ## License
 MIT
