@@ -21,7 +21,7 @@ Answer questions in the command line and a README will be generated<br />
 
 
 ## License
-MIT
+MIT <br />
 Info on license: https://opensource.org/licenses/MIT
 
 ## Contributing 
@@ -31,7 +31,7 @@ Contributors are welcome. Installation above.
 npm test
 
 ## Questions 
-Email me at: romeodixonll@gmail.com 
+Email me at: romeodixonll@gmail.com <br />
 Find me on Github: https://github.com/romeodixonll
 
 
