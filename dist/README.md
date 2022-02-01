@@ -1,4 +1,4 @@
-# README-Generator
+# README Generator
 [![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)],https://opensource.org/licenses/MIT
 
 ##Description
@@ -14,7 +14,6 @@ This app was made to generate high-quality professional README.md files. After c
 
 ##Installation
 Cloning the repo from Github. Then install Node.js. NPM install inquirer. Then be sure to use Node's built in feature "file system" 
-
 ##Usage
 Answer questions in the command line and a README will be generated
 
