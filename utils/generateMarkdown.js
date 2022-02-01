@@ -5,13 +5,13 @@ const renderLicenseBadge = (license) => {
     return "";
   }
   if (license === "MIT") {
-    return `[![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+    return `![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)`;
   } else if (license === "SIL") {
-    return `[![GitHub license](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)]`;
+    return `![GitHub license](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)`;
   } else if (license === "Mozilla") {
-    return `[![GitHub license](https://img.shields.io/badge/License-${license}-brightgreen.svg)]`;
+    return `![GitHub license](https://img.shields.io/badge/License-${license}-brightgreen.svg)`;
   } else {
-    return `[![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)]`;
+    return `![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)`;
   }
 };
 

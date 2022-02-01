@@ -1,5 +1,5 @@
 # README-Generator
-[![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)]
+![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 This app was made to generate high-quality professional README.md files. After completing the questions in the command line using Node.js/inquirers. The README file will be created and add to the directory. 
@@ -31,5 +31,6 @@ npm test
 ## Questions 
 Email me at: romeodixonll@gmail.com 
 Find me on Github: https://github.com/romeodixonll
+
 
 
